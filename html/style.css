@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding-left: 2px;
+}
+
+
+/* Header-starting */
+.header__div {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.top__heading {
+  font-family: "Lato", sans-serif;
+}
+.sub__heading {
+  font-family: "Lato", sans-serif;
+  color: #ffd369;
+}
+.header__day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__arrow {
+  padding-top: 5px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.back__copy {
+ 
+  width: 20px;
+  height: 20px;
+}
+
+.front__copy {
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.plus__copy {
+  margin-left: 5px;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+/* End-of-Header */
+/* setion1-starting */
+.set__alarm {
+  margin: 20px;
+}
+.wakeUp__alarm {
+  background-color: #ffd369;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.wakeup__section1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wakeup__title {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.wakeup__image {
+  width: 30px;
+  height: 30px;
+}
+
+.wakeup__time {
+  font-size: 12px;
+}
+
+.yoga__alarm {
+  background-color: #ffd369;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.yoga__section1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.yoga__title {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.yoga__image {
+  width: 30px;
+  height: 30px;
+}
+/* setion1-ending */
+
+/* workout-section-starting */
+.daily__workout {
+  background-color: rgb(244, 248, 248);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+.workout__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.workout__left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.workout__image {
+  width: 20px;
+  height: 20px;
+}
+
+.workout__title {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.workout__right {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.workout__list {
+  color: grey;
+  padding: 5px;
+  margin-left: 60px;
+}
+
+.workout__listItems {
+  font-size: 11px;
+}
+/* workout-section-ending */
+/* shift-project-starting */
+.shift__project {
+  background-color: rgb(244, 248, 248);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+.shiftProject__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shiftProject__headerL {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shiftProject__image {
+  width: 20px;
+  height: 20px;
+}
+
+.shiftProject__title {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.shiftProject__headerR {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.shiftProject__timing2 {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.shiftProject__detail {
+  color: grey;
+  padding: 5px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.shiftProject__footer {
+  /* background-color: grey; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 5px;
+  width: 50%;
+  height: 30px;
+}
+.footer__image{
+display: flex;
+}
+
+.shiftProject__imageF1 {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  
+}
+
+.shiftProject__imageF2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 90px;
+  
+}
+
+.shiftProject__imageF3 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 105px;
+}
+.footer__para {
+  color: grey;
+  padding: 5px;
+  margin-left: 40px;
+  font-size: 14px;
+}
+/* shift-project-ending */
+/* skype-sushi-starting */
+
+.skype__sushi {
+  background-color: rgb(244, 248, 248);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.skypeSushi__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skypeSushi__headerL {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skypeSushi__image {
+  width: 20px;
+  height: 20px;
+}
+
+.skypeSushi__title {
+  margin-left: 20px;
+  font-size: 15px;
+}
+.skypeSushi__headerR {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.skypeSushi__detail {
+  color: grey;
+  padding: 5px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+/* skype-sushi-ending */
+/* dribble-shot-start */
+.dribble__shot {
+  background-color: rgb(244, 248, 248);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.dribbleShot__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dribbleShot__headerL {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dribbleShot__headerR {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 13px;
+}
+.dribbleShot__image {
+  width: 20px;
+  height: 20px;
+}
+
+.dribbleShot__title {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.dribbleShot__detail {
+  color: grey;
+  padding: 5px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+/* dribble-shot-end */
